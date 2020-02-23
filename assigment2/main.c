@@ -4,28 +4,59 @@
  * A. CompleteLoop
 
 int main() {
-    printf("Hello, World!\n");
+
+    int inicio = -4;
+    int mmm = 18;
+
+    for (int i = 0; i<=5;i++){
+
+
+        int numero = inicio + mmm * i;
+
+
+        printf("%d \n", numero);
+    }
+
     return 0;
 }
-*/
 
 /*
  * A. Count
 
 int main() {
-    printf("Hello, World!\n");
+
+    for (int i = 1; i<=4;i++){
+        printf("2 times %d = %d \n" ,i, i*2);
+
+    }
+
     return 0;
 }
 */
 
 /*
  * A. ThreeDigitsFunction
+*/
 
-int main() {
-    printf("Hello, World!\n");
+int main( ) {
+
+    int n;
+
+    printf( "Enter a value :");
+    scanf("%d", &n);
+    printf("%d",n);
+
+    int imp1 = n%10;
+    int imp2 = n%100;
+    int imp3 = n%1000;
+
+
+    //printf("%d%d%d",imp1, imp2, imp3 );
+
+    printf("%d     %d", imp1, n);
+
     return 0;
 }
-*/
 
 /*
  * A. startSquare
