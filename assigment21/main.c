@@ -30,17 +30,16 @@ int main() {
 
     int col_count;
 
-    /*
-    row_count = readRow();
-    col_count = readCol();
-    */
     row_count = 30;
     col_count = 20;
+
+    row_count = readRow();
+    col_count = readCol();
 
     printf("ROW COUNT %d \nCOL COUNT %d", row_count, col_count);
     puts("................................");
 
-    for (int i = 0; i<= row_count; i++){
+    for (int i = 0; i< row_count; i++){
         char asteriscos = '*';
 
         printf("%0*i", col_count, 0);
