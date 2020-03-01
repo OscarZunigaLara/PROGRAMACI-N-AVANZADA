@@ -1,3 +1,3 @@
-/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA1/assigment2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA1/assigment2/cmake-build-debug/CMakeFiles/assigment2.dir
-/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA1/assigment2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tndrpoplap/CLionProjects/PROGRAMACI-N-AVANZADA/assigment2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tndrpoplap/CLionProjects/PROGRAMACI-N-AVANZADA/assigment2/cmake-build-debug/CMakeFiles/assigment2.dir
+/home/tndrpoplap/CLionProjects/PROGRAMACI-N-AVANZADA/assigment2/cmake-build-debug/CMakeFiles/edit_cache.dir

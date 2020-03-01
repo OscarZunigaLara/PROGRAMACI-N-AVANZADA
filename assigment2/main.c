@@ -36,33 +36,53 @@ int main() {
 
 /*
  * A. ThreeDigitsFunction
-*/
 
 int main( ) {
 
     int n;
 
-    printf( "Enter a value :");
+    //printf( "Enter a value :");
     scanf("%d", &n);
-    printf("%d",n);
+    //printf("%d \n",n);
+    int ddd = 1000;
+    int imp = n%ddd;
+    printf("%d", imp);
 
-    int imp1 = n%10;
-    int imp2 = n%100;
-    int imp3 = n%1000;
-
-
-    //printf("%d%d%d",imp1, imp2, imp3 );
-
-    printf("%d     %d", imp1, n);
 
     return 0;
 }
+*/
 
 /*
  * A. startSquare
 
 int main() {
-    printf("Hello, World!\n");
+
+    char u = 'u';
+
+    for (int i = 0; i<5; i++){
+        printf("%c", u);
+    }
+    printf("\n");
+
+
+    for (int i = 0; i<5; i++){
+        printf("%c", u);
+    }
+    printf("\n");
+
+
+    for (int i = 0; i<5; i++){
+        printf("%c", u);
+    }
+    printf("\n");
+
+
+    for (int i = 0; i<5; i++){
+        printf("%c", u);
+    }
+    printf("\n");
+
     return 0;
 }
 */
@@ -71,46 +91,133 @@ int main() {
  * A. WaveNumer40
 
 int main() {
-    printf("Hello, World!\n");
+    int counter = 0;
+    for (int i = 0;i <40; i++){
+        char p = '-';
+        printf("%c", p);
+    }
+    printf("\n");
+
+    for (int i = 0;i <10; i++){
+        printf("_-^-");
+    }
+    printf("\n");
+    for (int i =1;i <10; i++){
+        printf("%d", i);
+        printf("%d", i);
+        if (i == 9 && counter == 0){
+            i = -1;
+            counter = 1;
+        }
+    }
+    printf("00");
+    printf("\n");
+    for (int i = 0;i <40; i++){
+        char p = '-';
+        printf("%c", p);
+    }
+
+
+
     return 0;
 }
 */
+
 
 /*
  * A. NestedNUmbers
 
 int main() {
-    printf("Hello, World!\n");
+    for (int k = 0; k <3 ; ++k) {
+        for (int i = 0; i < 10; ++i) {
+            for (int j = 0; j < 3; ++j) {
+                printf("%d", i);
+            }
+        }
+        printf("\n");
+    }
+
+
+
     return 0;
 }
 */
+
 
 /*
  * A. PrintDesign
 
 int main() {
-    printf("Hello, World!\n");
+
+    for (int i = 0; i < 10; ++i) {
+            if (i%2 == 1){
+                int p = 11 - i;
+                p = p/2;
+                for (int k = 0; k <p ; ++k) {
+                    printf("-");
+                }
+                for (int m = 0; m <i-1 ; ++m) {
+                    printf("%d", i);
+                }
+                printf("%d",i);
+                for (int l = 0; l <p ; ++l) {
+                    printf("-");
+            }
+                printf("\n");
+
+            }
+
+    }
+
     return 0;
 }
 */
 
 /*
  * A. SlashFigure
-
 int main() {
-    printf("Hello, World!\n");
+
+    for (int i = 0; i < 6; ++i) {
+        for (int j = 0; j < 11; ++j) {
+            if (j < i *2){
+                printf("\\");
+            } else
+                printf("!!");
+        }
+        for (int k = 0; k <i*2 ; ++k) {
+            printf("/");
+        }
+        printf("\n");
+    }
     return 0;
 }
 */
 
 /*
  * A. SlashFigure2
-
+*/
 int main() {
-    printf("Hello, World!\n");
+
+    int n;
+
+    scanf("%d", &n);
+
+
+
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n*2-1; ++j) {
+            if (j < i *2){
+                printf("\\");
+            } else
+                printf("!!");
+        }
+        for (int k = 0; k <i*2 ; ++k) {
+            printf("/");
+        }
+        printf("\n");
+    }
     return 0;
 }
-*/
 
 /*
  * A. DollarFigure
