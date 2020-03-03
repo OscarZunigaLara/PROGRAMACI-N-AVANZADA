@@ -195,7 +195,6 @@ int main() {
 
 /*
  * A. SlashFigure2
-*/
 int main() {
 
     int n;
@@ -218,12 +217,35 @@ int main() {
     }
     return 0;
 }
+*/
 
 /*
  * A. DollarFigure
 
 int main() {
-    printf("Hello, World!\n");
+
+    for (int i = 0; i <7 ; ++i) {
+        for (int j = 0; j <i*2 ; ++j) {
+            printf("*");
+        }
+        for (int k = 7-i; k >0 ; --k) {
+            printf("$");
+        }
+
+        for (int k = (7-i)*2; k >0 ; --k) {
+            printf("*");
+        }
+
+        for (int k = 7-i; k >0 ; --k) {
+            printf("$");
+        }
+        for (int j = 0; j <i*2 ; ++j) {
+            printf("*");
+        }
+        printf("\n");
+
+    }
+
     return 0;
 }
 */
@@ -232,16 +254,97 @@ int main() {
  * A. ToManyRockets
 
 int main() {
-    printf("Hello, World!\n");
+    int n;
+    scanf("%d", &n);
+
+    for (int i = 0; i <n ; ++i) {
+        printf("   /\\    ");
+    }
+    printf("\n");
+    for (int j = 0; j < n; ++j) {
+        printf("  /  \\   ");
+    }
+    printf("\n");
+    for (int k = 0; k < n ; ++k) {
+        printf(" /    \\  ");
+    }
+    printf("\n");
+    for (int l = 0; l < n; ++l) {
+        printf("+------+ ");
+    }
+    printf("\n");
+    for (int m = 0; m < n; ++m) {
+        printf("|      | ");
+    }
+    printf("\n");
+    for (int m = 0; m < n; ++m) {
+        printf("|      | ");
+    }
+    printf("\n");
+    for (int l = 0; l < n; ++l) {
+        printf("+------+ ");
+    }
+    printf("\n");
+    for (int l = 0; l < n; ++l) {
+        printf("| Viva | ");
+    }
+    printf("\n");
+    for (int l = 0; l < n; ++l) {
+        printf("|Mexico| ");
+    }
+    printf("\n");
+    for (int l = 0; l < n; ++l) {
+        printf("+------+ ");
+    }
+    printf("\n");
+    for (int m = 0; m < n; ++m) {
+        printf("|      | ");
+    }
+    printf("\n");
+    for (int m = 0; m < n; ++m) {
+        printf("|      | ");
+    }
+    printf("\n");
+    for (int l = 0; l < n; ++l) {
+        printf("+------+ ");
+    }
+    printf("\n");
+    for (int i = 0; i <n ; ++i) {
+        printf("   /\\    ");
+    }
+    printf("\n");
+    for (int j = 0; j < n; ++j) {
+        printf("  /  \\   ");
+    }
+    printf("\n");
+    for (int k = 0; k < n ; ++k) {
+        printf(" /    \\  ");
+    }
     return 0;
 }
 */
 
 /*
  * A. NumbersOutput
+*/
 
 int main() {
-    printf("Hello, World!\n");
+    for (int i = 0; i <6 ; ++i) {
+        for (int j = 1; j <10 ; ++j) {
+            if(j != 9){
+                printf(" ");
+            } else
+                printf("|");
+        }
+        printf(" ");
+
+    }
+    printf("\n");
+    for (int k = 0; k < 6; ++k) {
+        for (int j = 1; j <10 ; ++j) {
+            printf("%d", j);
+        }
+        printf("%d", 0);
+    }
     return 0;
 }
-*/
