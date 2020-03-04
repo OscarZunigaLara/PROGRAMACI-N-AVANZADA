@@ -3,4 +3,5 @@
 
 void hello(void);
 
+void thidIsATestForStaticLibrary(int n);
 #endif //STATIC_LIBRARY_H
