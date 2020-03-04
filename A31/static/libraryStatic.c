@@ -1,4 +1,4 @@
-#include "library.h"
+#include "libraryStatic.h"
 
 #include <stdio.h>
 

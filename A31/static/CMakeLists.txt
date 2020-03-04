@@ -3,4 +3,4 @@ project(static C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_library(static library.c library.h)
+add_library(static libraryStatic.c libraryStatic.h)

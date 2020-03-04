@@ -123,32 +123,32 @@ dynamic/fast:
 	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/build
 .PHONY : dynamic/fast
 
-library.o: library.c.o
+librarydynamic.o: librarydynamic.c.o
 
-.PHONY : library.o
+.PHONY : librarydynamic.o
 
 # target to build an object file
-library.c.o:
-	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/library.c.o
-.PHONY : library.c.o
+librarydynamic.c.o:
+	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/librarydynamic.c.o
+.PHONY : librarydynamic.c.o
 
-library.i: library.c.i
+librarydynamic.i: librarydynamic.c.i
 
-.PHONY : library.i
+.PHONY : librarydynamic.i
 
 # target to preprocess a source file
-library.c.i:
-	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/library.c.i
-.PHONY : library.c.i
+librarydynamic.c.i:
+	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/librarydynamic.c.i
+.PHONY : librarydynamic.c.i
 
-library.s: library.c.s
+librarydynamic.s: librarydynamic.c.s
 
-.PHONY : library.s
+.PHONY : librarydynamic.s
 
 # target to generate assembly for a file
-library.c.s:
-	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/library.c.s
-.PHONY : library.c.s
+librarydynamic.c.s:
+	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/librarydynamic.c.s
+.PHONY : librarydynamic.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... dynamic"
 	@echo "... edit_cache"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... librarydynamic.o"
+	@echo "... librarydynamic.i"
+	@echo "... librarydynamic.s"
 .PHONY : help
 
 

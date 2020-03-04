@@ -78,10 +78,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/library.c">
+		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/libraryStatic.c">
 			<Option target="static"/>
 		</Unit>
-		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/library.h">
+		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/libraryStatic.h">
 			<Option target="static"/>
 		</Unit>
 		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/CMakeLists.txt">

@@ -57,27 +57,27 @@ include CMakeFiles/dynamic.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dynamic.dir/flags.make
 
-CMakeFiles/dynamic.dir/library.c.o: CMakeFiles/dynamic.dir/flags.make
-CMakeFiles/dynamic.dir/library.c.o: ../library.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dynamic.dir/library.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dynamic.dir/library.c.o   -c /home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/library.c
+CMakeFiles/dynamic.dir/librarydynamic.c.o: CMakeFiles/dynamic.dir/flags.make
+CMakeFiles/dynamic.dir/librarydynamic.c.o: ../librarydynamic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dynamic.dir/librarydynamic.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dynamic.dir/librarydynamic.c.o   -c /home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/librarydynamic.c
 
-CMakeFiles/dynamic.dir/library.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dynamic.dir/library.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/library.c > CMakeFiles/dynamic.dir/library.c.i
+CMakeFiles/dynamic.dir/librarydynamic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dynamic.dir/librarydynamic.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/librarydynamic.c > CMakeFiles/dynamic.dir/librarydynamic.c.i
 
-CMakeFiles/dynamic.dir/library.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dynamic.dir/library.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/library.c -o CMakeFiles/dynamic.dir/library.c.s
+CMakeFiles/dynamic.dir/librarydynamic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dynamic.dir/librarydynamic.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/librarydynamic.c -o CMakeFiles/dynamic.dir/librarydynamic.c.s
 
 # Object files for target dynamic
 dynamic_OBJECTS = \
-"CMakeFiles/dynamic.dir/library.c.o"
+"CMakeFiles/dynamic.dir/librarydynamic.c.o"
 
 # External object files for target dynamic
 dynamic_EXTERNAL_OBJECTS =
 
-libdynamic.so: CMakeFiles/dynamic.dir/library.c.o
+libdynamic.so: CMakeFiles/dynamic.dir/librarydynamic.c.o
 libdynamic.so: CMakeFiles/dynamic.dir/build.make
 libdynamic.so: CMakeFiles/dynamic.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library libdynamic.so"

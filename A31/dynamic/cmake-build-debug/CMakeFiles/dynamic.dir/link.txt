@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libdynamic.so -o libdynamic.so CMakeFiles/dynamic.dir/library.c.o 
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libdynamic.so -o libdynamic.so CMakeFiles/dynamic.dir/librarydynamic.c.o 

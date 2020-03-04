@@ -78,10 +78,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/library.c">
+		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/librarydynamic.c">
 			<Option target="dynamic"/>
 		</Unit>
-		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/library.h">
+		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/librarydynamic.h">
 			<Option target="dynamic"/>
 		</Unit>
 		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/CMakeLists.txt">

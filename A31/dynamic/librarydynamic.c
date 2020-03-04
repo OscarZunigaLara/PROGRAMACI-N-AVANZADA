@@ -1,4 +1,4 @@
-#include "library.h"
+#include "librarydynamic.h"
 
 #include <stdio.h>
 
@@ -8,7 +8,7 @@ void hello(void) {
 
 
 void thisIsATestForADynamicLibrary(int n){
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n * 2; ++i) {
         puts("THIS IS A DYNAMIC LIBRARY");
     }
 }

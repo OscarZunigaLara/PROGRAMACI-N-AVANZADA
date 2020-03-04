@@ -57,27 +57,27 @@ include CMakeFiles/static.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/static.dir/flags.make
 
-CMakeFiles/static.dir/library.c.o: CMakeFiles/static.dir/flags.make
-CMakeFiles/static.dir/library.c.o: ../library.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/static.dir/library.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/static.dir/library.c.o   -c /home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/library.c
+CMakeFiles/static.dir/libraryStatic.c.o: CMakeFiles/static.dir/flags.make
+CMakeFiles/static.dir/libraryStatic.c.o: ../libraryStatic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/static.dir/libraryStatic.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/static.dir/libraryStatic.c.o   -c /home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/libraryStatic.c
 
-CMakeFiles/static.dir/library.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/static.dir/library.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/library.c > CMakeFiles/static.dir/library.c.i
+CMakeFiles/static.dir/libraryStatic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/static.dir/libraryStatic.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/libraryStatic.c > CMakeFiles/static.dir/libraryStatic.c.i
 
-CMakeFiles/static.dir/library.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/static.dir/library.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/library.c -o CMakeFiles/static.dir/library.c.s
+CMakeFiles/static.dir/libraryStatic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/static.dir/libraryStatic.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/libraryStatic.c -o CMakeFiles/static.dir/libraryStatic.c.s
 
 # Object files for target static
 static_OBJECTS = \
-"CMakeFiles/static.dir/library.c.o"
+"CMakeFiles/static.dir/libraryStatic.c.o"
 
 # External object files for target static
 static_EXTERNAL_OBJECTS =
 
-libstatic.a: CMakeFiles/static.dir/library.c.o
+libstatic.a: CMakeFiles/static.dir/libraryStatic.c.o
 libstatic.a: CMakeFiles/static.dir/build.make
 libstatic.a: CMakeFiles/static.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libstatic.a"

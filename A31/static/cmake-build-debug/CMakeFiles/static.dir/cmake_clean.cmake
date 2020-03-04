@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/static.dir/library.c.o"
+  "CMakeFiles/static.dir/libraryStatic.c.o"
   "libstatic.a"
   "libstatic.pdb"
 )

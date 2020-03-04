@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dynamic.dir/library.c.o"
+  "CMakeFiles/dynamic.dir/librarydynamic.c.o"
   "libdynamic.pdb"
   "libdynamic.so"
 )

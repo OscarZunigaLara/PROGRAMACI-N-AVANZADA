@@ -3,4 +3,4 @@ project(dynamic C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_library(dynamic SHARED library.c library.h)
+add_library(dynamic SHARED librarydynamic.c librarydynamic.h)

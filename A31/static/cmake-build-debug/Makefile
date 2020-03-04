@@ -123,32 +123,32 @@ static/fast:
 	$(MAKE) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/build
 .PHONY : static/fast
 
-library.o: library.c.o
+libraryStatic.o: libraryStatic.c.o
 
-.PHONY : library.o
+.PHONY : libraryStatic.o
 
 # target to build an object file
-library.c.o:
-	$(MAKE) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/library.c.o
-.PHONY : library.c.o
+libraryStatic.c.o:
+	$(MAKE) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/libraryStatic.c.o
+.PHONY : libraryStatic.c.o
 
-library.i: library.c.i
+libraryStatic.i: libraryStatic.c.i
 
-.PHONY : library.i
+.PHONY : libraryStatic.i
 
 # target to preprocess a source file
-library.c.i:
-	$(MAKE) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/library.c.i
-.PHONY : library.c.i
+libraryStatic.c.i:
+	$(MAKE) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/libraryStatic.c.i
+.PHONY : libraryStatic.c.i
 
-library.s: library.c.s
+libraryStatic.s: libraryStatic.c.s
 
-.PHONY : library.s
+.PHONY : libraryStatic.s
 
 # target to generate assembly for a file
-library.c.s:
-	$(MAKE) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/library.c.s
-.PHONY : library.c.s
+libraryStatic.c.s:
+	$(MAKE) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/libraryStatic.c.s
+.PHONY : libraryStatic.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... static"
 	@echo "... edit_cache"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... libraryStatic.o"
+	@echo "... libraryStatic.i"
+	@echo "... libraryStatic.s"
 .PHONY : help
 
 

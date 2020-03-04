@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/library.c" "/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/cmake-build-debug/CMakeFiles/static.dir/library.c.o"
+  "/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/libraryStatic.c" "/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/static/cmake-build-debug/CMakeFiles/static.dir/libraryStatic.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
