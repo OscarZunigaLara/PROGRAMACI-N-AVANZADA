@@ -1,0 +1,12 @@
+/*
+ * gcc -L/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/cmake-build-debug/   -Wall main.c libstatic.a -o TEST -ldynamic
+ *
+ *
+ *export LD_LIBRARY_PATH=/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/dynamic/cmake-build-debug:$LD_LIBRARY_PATH
+*/
+
+Estos son los comandos que utilice para crear y linkear el proyecto
+
+
+///https://www.thegeekstuff.com/2012/06/linux-shared-libraries/
+///https://www.howtogeek.com/427086/how-to-use-linuxs-ar-command-to-create-static-libraries/
