@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/testLibs.dir/main.c.o  -o testLibs 

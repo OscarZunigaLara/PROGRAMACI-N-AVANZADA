@@ -1,0 +1,3 @@
+/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/testLibs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/testLibs/cmake-build-debug/CMakeFiles/testLibs.dir
+/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A31/testLibs/cmake-build-debug/CMakeFiles/edit_cache.dir
