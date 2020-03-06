@@ -8,7 +8,7 @@ void hello(void) {
 
 
 void thisIsATestForADynamicLibrary(int n){
-    for (int i = 0; i < n * 1; ++i) {
+    for (int i = 0; i < n * 2; ++i) {
         puts("THIS IS A DYNAMIC LIBRARY");
     }
 }

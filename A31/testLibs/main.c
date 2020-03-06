@@ -6,13 +6,13 @@
 int main(int argc, char *argv[]){
     printf("TESTING THE STATIC AND DINAMIC LIBRARIES!\n \n");
 
-    printf("INTRODUCE A DIGIT FOR TESTING THE STATIC LIBRARY");
+    printf("INTRODUCE A DIGIT FOR TESTING THE STATIC LIBRARY  ");
     int nStatic;
     scanf("%d", &nStatic);
     thidIsATestForStaticLibrary(nStatic);
     printf("\n");
 
-    printf("INTRODUCE A DIGIT FOR TESTING THE DYNAMIC LIBRARY");
+    printf("INTRODUCE A DIGIT FOR TESTING THE DYNAMIC LIBRARY  ");
     int nDynamyc;
     scanf("%d", &nDynamyc);
     thisIsATestForADynamicLibrary(nDynamyc);
