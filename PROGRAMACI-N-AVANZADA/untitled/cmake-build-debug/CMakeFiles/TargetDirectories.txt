@@ -1,0 +1,3 @@
+/home/tndrpoplap/CLionProjects/PROGRAMACI-N-AVANZADA/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tndrpoplap/CLionProjects/PROGRAMACI-N-AVANZADA/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+/home/tndrpoplap/CLionProjects/PROGRAMACI-N-AVANZADA/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
