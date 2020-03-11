@@ -1,3 +1,3 @@
-/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A3/cmake-build-debug/CMakeFiles/A3.dir
-/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tndrpoplap/CLionProjects/A3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tndrpoplap/CLionProjects/A3/cmake-build-debug/CMakeFiles/A3.dir
+/home/tndrpoplap/CLionProjects/A3/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+
 /*A
 void printer(double x, double y, double bubble) {
     printf("x = %.2f and y = %.1f\n", x, y);
@@ -33,6 +36,15 @@ void printStrings(char *i, int n){
     }
 }
 
+
+int main (void){
+    int n1;
+    scanf("%d", &n1);
+    char *i;
+    scanf("%s", i);
+    printStrings(i,n1);
+    return 0;
+}
 
 double ftoc(double tempf) {
     double tempc = (tempf - 32) * 5 / 9;
@@ -99,16 +111,18 @@ int countQuarters(int nCents){
     cents = cents / 25;
     return cents;
 }
-
 /*
+
 int main(){
-    int cents = countQuarters(1278);
+    int n1;
+    scanf("%i", &n1);
+    int cents = countQuarters(n1);
 
     printf("%d", cents);
 
     return 0;
 }
-
+/*
 int main(){
     int n;
     scanf("%d", &n);
@@ -116,7 +130,6 @@ int main(){
     printf("%d times 2 = %d", n, 2*n);
     return 0;
 }
-
 
 
 int main(void) {
@@ -200,7 +213,7 @@ void printSquare(int n, int n1){
         printf("\n");
     }
 }
-
+/*
 int main (void){
     int n1;
     scanf("%i", &n1);
@@ -209,7 +222,7 @@ int main (void){
     printSquare(n1,n2);
     return 0;
 }
-
+*/
 
 
 void printGrid(int n1, int n2){
@@ -243,3 +256,30 @@ int main (void){
 }
 
  */
+
+int largerAbsVal(int n1, int n2){
+    n1 = abs (n1);
+    n2 = abs (n2);
+
+    if(n1 > n2){
+        return n1;
+    } else{
+        return n2;
+    }
+
+
+}
+/*
+
+int main(void) {
+    int n1;
+    scanf("%i", &n1);
+    int n2;
+    scanf("%i", &n2);
+
+    printf("%d", largerAbsVal(n1, n2));
+
+
+    return 0;
+}
+*/
