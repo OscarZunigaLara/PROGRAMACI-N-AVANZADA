@@ -188,11 +188,58 @@ int main(void){
 }
  */
 
-int printSquare(int n, n1){
+void printSquare(int n, int n1){
+    for (int j = n; j <= n1; ++j) {
+        for (int i = j; i <= n1; ++i) {
+            printf("%d", i);
+        }
+        for (int k = n; k < j; ++k) {
+            printf("%d", k);
+
+        }
+        printf("\n");
+    }
+}
+
+int main (void){
+    int n1;
+    scanf("%i", &n1);
+    int n2;
+    scanf("%i", &n2);
+    printSquare(n1,n2);
+    return 0;
+}
+
+
+
+void printGrid(int n1, int n2){
+
+    for (int j = 1; j <= n1; ++j) {
+        for (int i = 1; i <= n2; ++i) {
+            printf("%d",  j + (n1)*(i-1));
+            if (i != n2){
+                printf(", ");
+
+            }
+        }
+        printf("\n");
+    }
+
 
 }
+
+
+
+/*
 int main (void){
 
+    int n1;
+    scanf("%i", &n1);
+    int n2;
+    scanf("%i", &n2);
+    printGrid(n1,n2);
 
     return 0;
 }
+
+ */
