@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tndrpoplap/CLionProjects/PROGRAMACI-N-AVANZADA/untitled/main.c
+stdio.h
+-
+stdlib.h
+-
+
