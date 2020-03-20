@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/tndrpoplap/CLionProjects/PROGRAMACI-N-AVANZADA/untitled/main.c
+/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/PROGRAMACI-N-AVANZADA/untitled/main.c
 stdio.h
 -
-stdlib.h
+math.h
 -
 
