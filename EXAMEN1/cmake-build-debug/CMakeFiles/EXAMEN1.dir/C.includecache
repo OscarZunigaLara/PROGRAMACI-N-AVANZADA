@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN1/main.c
+stdio.h
+-
+main.h
+/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN1/main.h
+stdarg.h
+-
+
+/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN1/main.h
+

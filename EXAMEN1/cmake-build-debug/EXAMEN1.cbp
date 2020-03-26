@@ -81,6 +81,9 @@
 		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN1/main.c">
 			<Option target="EXAMEN1"/>
 		</Unit>
+		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN1/main.h">
+			<Option target="EXAMEN1"/>
+		</Unit>
 		<Unit filename="/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
