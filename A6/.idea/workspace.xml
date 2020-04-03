@@ -6,6 +6,11 @@
     </configurations>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="tndrdesk &lt;a01654827@itesm.mx&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1a0h94EbRdOtU6z4nz9gRnxsASZ" />
@@ -20,5 +25,15 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1014" y="141" width="821" height="831" key="CommitChangelistDialog2" timestamp="1585878283531">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1014" y="141" width="821" height="831" key="CommitChangelistDialog2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1585878283531" />
+    <state x="1025" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585878285157">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1025" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1585878285157" />
   </component>
 </project>
