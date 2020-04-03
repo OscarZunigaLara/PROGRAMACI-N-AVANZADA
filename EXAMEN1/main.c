@@ -24,7 +24,7 @@ void binprintfUnsignedShortInt(int v)
 
 unsigned  int codificaParDeBits(int count, ...) {
     unsigned int nReturn = 0;
-    //printf("\n");
+    printf("\n");
     va_list list;
     va_start(list, count);
     int count2 = count;
@@ -38,13 +38,14 @@ unsigned  int codificaParDeBits(int count, ...) {
     for(int j=0; j<count2; j++)
     {
         unsigned short int n1 =va_arg(list, unsigned  int);
+        //binprintfUnsignedShortInt(0); binprintfUnsignedShortInt(n1);
+        //printf("\n");
         n1 <<= (14 - (j*2));
         n1 >>=(14);
         n1 <<= (j*2);
         //binprintfUnsignedShortInt(0); binprintfUnsignedShortInt(n1);
         //printf("\n");
         nReturn += n1;
-
     }
     int i = 0;
     for(int j=8; j<count; j++)
@@ -81,7 +82,7 @@ int testcodificaParDeBits0(){
 int testcodificaParDeBits3(){
 
     return codificaParDeBits(3,
-                             2, 5, 66) == 6;
+                             2, 5, 16) == 22;
 }
 int testcodificaParDeBits8(){
     return codificaParDeBits(8,
@@ -112,7 +113,7 @@ int main() {
     printf("PROBANDO 0 VALORES     ");
     printf("%d", testcodificaParDeBits0());
     printf("\n");
-    printf("PROBANDO 4 VALORES     ");
+    printf("PROBANDO 3 VALORES     ");
     printf("%d", testcodificaParDeBits3());
     printf("\n");
     printf("PROBANDO 8 VALORES     ");
