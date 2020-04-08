@@ -1,11 +1,6 @@
 #include <stdio.h>
 
 
-
-
-
-
-
 int evenOdd(){
     int n;
 
@@ -71,15 +66,82 @@ int season(){
     scanf("%d", &month);
     int day;
     scanf("%d", &day);
+
+    if (month == 12  && day >= 16)
+        printf("Winter");
+    if (month ==3 && day <= 15 )
+        printf("Winter");
+    if (month <3)
+        printf("Winter");
+
+    if (month == 3  && day >= 16)
+        printf("Spring");
+    if (month == 6 && day <= 15)
+        printf("Spring");
+    if (month <6 && month > 3)
+        printf("Spring");
+
+    if (month == 6  && day >=16)
+        printf("Summer");
+    if (month ==9 && day <= 15)
+        printf("Summer");
+    if (month <9 && month > 6)
+        printf("Summer");
+
+    if (month == 9  && day >= 16)
+        printf("Fall");
+    if (month ==12 && day <= 15)
+        printf("Fall");
+    if (month <12 && month > 9)
+        printf("Fall");
+
+
     return 0;
 }
 
 int printRange(){
+    int n1;
+    scanf("%d", &n1);
+    int n2;
+    scanf("%d", &n2);
+
+    if (n1 == n2)
+        printf("%d", n1);
+
+    if (n1 < n2){
+        for (int i =n1 ; i <=n2 ; ++i) {
+            printf("%d ", i);
+        }
+    }
+
+    if (n2 < n1){
+        for (int i =n1 ; i >=n2 ; --i) {
+            printf("%d ", i);
+        }
+    }
 
     return 0;
 }
 
 int xo(){
+    int n1;
+    scanf("%d", &n1);
+
+    for (int i = 0; i < n1; ++i) {
+        if (i != 0){
+            printf("\n");
+        }
+        for (int j = 0; j < n1; ++j) {
+            char toPrint = 'o';
+            if (i == j){
+                toPrint = 'x';
+           }
+            if ((n1 -i-1) == j){
+                toPrint = 'x';
+            }
+           printf("%c", toPrint);
+        }
+    }
 
     return 0;
 }
@@ -144,7 +206,9 @@ int main() {
     //evenOdd();
     //countFactors();
     //medianOf3();
-    season();
+    //season();
+    //printRange();
+    xo();
     return 0;
 }
 

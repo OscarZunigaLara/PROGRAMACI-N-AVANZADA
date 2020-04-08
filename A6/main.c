@@ -25,7 +25,6 @@ int main() {
     scanf("%d", &arraySize);
     int nABUSCAR;
     scanf("%d", &nABUSCAR);
-
     arraySize = 8;
     nABUSCAR = 7;
     

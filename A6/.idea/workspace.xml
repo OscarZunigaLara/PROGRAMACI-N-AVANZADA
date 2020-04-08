@@ -13,7 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="eb4758cc-bc81-4ddf-ac37-1cd48343745b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../a5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../a5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a5/cmake-build-debug/a5" beforeDir="false" afterPath="$PROJECT_DIR$/../a5/cmake-build-debug/a5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a5/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../a5/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +69,7 @@
       <updated>1585878263112</updated>
       <workItem from="1585878265104" duration="7607000" />
       <workItem from="1586281449318" duration="1686000" />
+      <workItem from="1586367211081" duration="846000" />
     </task>
     <task id="LOCAL-00001" summary="A6">
       <created>1585878283641</created>
