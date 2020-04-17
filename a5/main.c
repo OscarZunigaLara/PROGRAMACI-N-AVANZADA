@@ -146,28 +146,145 @@ int xo(){
     return 0;
 }
 
-int printTRiangleType(){
+int printTriangleType(){
+    int n1;
+    scanf("%d", &n1);
+    int n2;
+    scanf("%d", &n2);
+    int n3;
+    scanf("%d", &n3);
+
+    if (n1 == n2 && n2 == n3){
+        printf("equilateral");
+    } else{
+        if (n1 == n2 || n2 == n3 || n3 == n1){
+            printf("isosceles");
+        }
+    }
+
+    if (n1 != n2 && n2 != n3 && n3 != n1){
+        printf("scalene");
+    }
 
     return 0;
 }
 
-int quadran1(){
+int quadrant1(){
+    float n1;
+    scanf("%f", &n1);
+    float n2;
+    scanf("%f", &n2);
+    if (n1 == 0 || n2 == 0){
+        printf("0");
+    } else {
+        if (n1 > 0) {
+            if (n2 > 0) {
+                printf("%d", 1);
+            } else {
+                printf("%d",4);
+            }
+        } else {
+            if (n2 > 0) {
+                printf("%d",2);
+            } else {
+                printf("%d",3);
+            }
+        }
+    }
 
     return 0;
 }
 
 int perfectNumbers(){
 
+    int n;
+    scanf("%d", &n);
+    printf("Perfect numbers up to %d: ",n);
+
+    for (int k = 0; k <= n; ++k) {
+        //printf("\n chech %d ", k);
+
+        int factors[1000];
+        int suma =0;
+        int pos = 0;
+
+        for (int i = 1; i <k ; ++i) {
+            int factor = k%i;
+            if (factor == 0){
+                //printf("%d", i);
+                factors[pos] = i;
+                pos++;
+            }
+        }
+        for (int j = 0; j < pos; ++j) {
+            int nnnn = factors[j];
+            //printf("%d ", nnnn);
+            suma = suma + nnnn;
+
+        }
+        if (suma == k && suma != 0){
+            printf("%d ", suma);
+        }
+    }
+
+
+
     return 0;
 }
+
+
 
 int zeroDigits(){
 
+    int n;
+    scanf("%d", &n);
+
+    int sum = 0;
+
+    while (n > 0){
+
+        if (n % 10 == 0){
+            //printf("%   d ",n% 10);
+            sum++;
+        }
+
+        n = n / 10;
+        //printf("%d \n",n);
+
+    }
+    printf("%d", sum);
+
     return 0;
 }
-
+int power(int n1, int n2){
+    int ans = n1;
+    for (int i = 1; i < n2; ++i) {
+        ans = ans * n1;
+    }
+    printf("%d", ans);
+}
 int showTwos(){
+    int n;
+    scanf("%d", &n);
+    int fff = 0;
+    int times = 0;
+    int nn = n;
 
+    while (fff == 0){
+        if (nn % 2 == 0){
+            nn = nn/2;
+            times+=1;
+        } else{
+            fff = 1;
+        }
+    }
+    //printf("%d %d", times, nn);
+
+    printf("%d = ", n);
+    for (int i = 0; i < times; ++i) {
+        printf("%d * ", 2);
+    }
+    printf("%d", nn);
     return 0;
 }
 
@@ -208,7 +325,12 @@ int main() {
     //medianOf3();
     //season();
     //printRange();
-    xo();
+    //xo();
+    //printTriangleType();
+    //quadrant1();
+    //perfectNumbers();
+    //zeroDigits();
+    showTwos();
     return 0;
 }
 
