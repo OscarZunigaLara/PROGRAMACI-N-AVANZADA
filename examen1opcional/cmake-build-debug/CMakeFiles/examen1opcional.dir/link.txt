@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/examen1opcional.dir/main.c.o  -o examen1opcional 
