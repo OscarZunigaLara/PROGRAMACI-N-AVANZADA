@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/A7.dir/main.c.o  -o A7 
