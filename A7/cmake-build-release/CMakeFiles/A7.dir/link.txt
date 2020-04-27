@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -Wall -pedantic -O3 -DNDEBUG   CMakeFiles/A7.dir/main.c.o  -o A7 

@@ -1,0 +1,3 @@
+/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A7/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A7/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/home/tndrdesk/CLionProjects/PROGRAMACI-N-AVANZADA/A7/cmake-build-release/CMakeFiles/A7.dir
