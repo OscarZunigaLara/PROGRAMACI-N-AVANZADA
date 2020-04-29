@@ -15,7 +15,8 @@ int gcd(int a, int b) {
     return gcd(b%a, a);
 }
 
-int prtSimplifyFraction(){
+
+int prtSimplifyFraction() {
     Fraction* FRACTIONPOINTER = malloc(sizeof(Fraction));
     int gcdNumber = 1;
 
@@ -110,8 +111,55 @@ int ptrEuclideanDistance3D(){
     return distance;
 }
 
-int ptrQuadrant(){
+typedef struct {
+    int x;
+    int y;
 
+}Point2D;
+
+int ptrQuadrant(){
+    Point2D* point = malloc(sizeof(Point2D));
+    scanf("%d %d", &point->x, &point->y);
+
+    if (point->y  != 0 && point->x != 0){
+        if (point->x > 0){
+            if (point->y > 0){
+                printf("%d", 1);
+                return 1;
+            } else{
+                printf("%d", 4);
+                return 4;
+            }
+        } else{
+            if (point->y > 0){
+                printf("%d", 2);
+                return 2;
+            } else{
+                printf("%d", 3);
+                return 3;
+            }
+        }
+
+
+    } else{
+        printf("%d", 0);
+        return 0;
+    }
+
+}
+
+int ptrSwapAndNegate(){
+    Point2D* point1 = malloc(sizeof(Point2D));
+    scanf("%d %d", &point1->x, &point1->y);
+    Point2D* point2 = malloc(sizeof(Point2D));
+    point2->y = point1->y;
+    point2->x = point1->x;
+
+    point1->x = -(point2->y);
+    point1->y = -(point2->x);
+
+    printf("%d %d", point1->x, point1->y);
+    return 0;
 }
 
 int ptrComputeSlope(){
@@ -141,8 +189,8 @@ int ptrPointInsideConvexPolygon(){
 int main() {
     //prtSimplifyFraction();
     //ptrSumFraction();
-    ptrEuclideanDistance3D();
-
-
+    //ptrEuclideanDistance3D();
+    //ptrQuadrant();
+    ptrSwapAndNegate();
     return 0;
 }
