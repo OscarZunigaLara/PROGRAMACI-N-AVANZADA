@@ -15,13 +15,14 @@ int gcd(int a, int b) {
     return gcd(b%a, a);
 }
 
+Fraction* simplifyFraction(const Fraction* const fraccion){
+
+}
+
 
 int prtSimplifyFraction() {
-    Fraction* FRACTIONPOINTER = malloc(sizeof(Fraction));
-    int gcdNumber = 1;
 
-    scanf("%d", &FRACTIONPOINTER->numerator);
-    scanf("%d", &FRACTIONPOINTER->denominator);
+
     if (FRACTIONPOINTER->denominator != FRACTIONPOINTER->numerator){
         gcdNumber = gcd(FRACTIONPOINTER->numerator, FRACTIONPOINTER->denominator);
         //printf("\n%d", FRACTIONPOINTER->numerator);
@@ -30,8 +31,6 @@ int prtSimplifyFraction() {
         FRACTIONPOINTER->numerator = FRACTIONPOINTER->numerator/gcdNumber;
         FRACTIONPOINTER->denominator = FRACTIONPOINTER->denominator/gcdNumber;
     }
-    printf("%d", FRACTIONPOINTER->numerator);
-    printf("\n%d", FRACTIONPOINTER->denominator);
 
     free(FRACTIONPOINTER);
 }
@@ -202,6 +201,9 @@ int ptrAreCollinear(){
     printf("%.4f   %.4f ", slope1, slope2);
     free(point1);
     free(point2);
+
+    ///RESTAR....
+
     return 0;
 
 
@@ -223,7 +225,24 @@ int ptrPointInsideConvexPolygon(){
 }
 
 
+
 int main() {
+    ///MALLOC = MEMORY ALOCATION
+    //CALLOC
+    Fraction* FRACTIONPOINTER = malloc(sizeof(Fraction));
+    int gcdNumber = 1;
+
+    scanf("%d", &FRACTIONPOINTER->numerator);
+    scanf("%d", &FRACTIONPOINTER->denominator);
+
+    Fraction* newFraction = simplifyFraction(FRACTIONPOINTER);
+    free(FRACTIONPOINTER);
+    printf("%d", newFraction->numerator);
+    printf("%d", newFraction->denominator);
+    free(newFraction);
+
+
+
     //prtSimplifyFraction();
     //ptrSumFraction();
     //ptrEuclideanDistance3D();
@@ -231,7 +250,7 @@ int main() {
     //ptrSwapAndNegate();
     //ptrComputeSlope();
     //ptrAreCollinear();
-    ptrRectangleContainsPoint();
+    //ptrRectangleContainsPoint();
 
     return 0;
 }
