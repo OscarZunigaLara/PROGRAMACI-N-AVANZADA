@@ -124,17 +124,21 @@ int ptrQuadrant(){
     if (point->y  != 0 && point->x != 0){
         if (point->x > 0){
             if (point->y > 0){
+                free(point);
                 printf("%d", 1);
                 return 1;
             } else{
+                free(point);
                 printf("%d", 4);
                 return 4;
             }
         } else{
             if (point->y > 0){
+                free(point);
                 printf("%d", 2);
                 return 2;
             } else{
+                free(point);
                 printf("%d", 3);
                 return 3;
             }
@@ -142,6 +146,7 @@ int ptrQuadrant(){
 
 
     } else{
+        free(point);
         printf("%d", 0);
         return 0;
     }
@@ -159,14 +164,46 @@ int ptrSwapAndNegate(){
     point1->y = -(point2->x);
 
     printf("%d %d", point1->x, point1->y);
+
+    free(point1);
+    free(point2);
     return 0;
 }
 
-int ptrComputeSlope(){
 
+
+int ptrComputeSlope(){
+    Point2D* point1 = malloc(sizeof(Point2D));
+    scanf("%d %d", &point1->x, &point1->y);
+    Point2D* point2 = malloc(sizeof(Point2D));
+    scanf("%d %d", &point2->x, &point2->y);
+    int slope = (point2->y - point1->y)/(point2->x - point1->x);
+    printf("%d", slope);
+    free(point1);
+    free(point2);
+    return slope;
 }
 
+
 int ptrAreCollinear(){
+    Point2D* point1 = malloc(sizeof(Point2D));
+    scanf("%d %d", &point1->x, &point1->y);
+    Point2D* point2 = malloc(sizeof(Point2D));
+    scanf("%d %d", &point2->x, &point2->y);
+    Point2D* point3 = malloc(sizeof(Point2D));
+    scanf("%d %d", &point3->x, &point3->y);
+    double slope1 = (point2->y - point1->y)/(point2->x - point1->x);
+    double slope2 = (point2->y - point3->y)/(point2->x - point3->x);
+
+
+    slope1 = round(slope1);
+    slope2 = round(slope2);
+
+    printf("%.4f   %.4f ", slope1, slope2);
+    free(point1);
+    free(point2);
+    return 0;
+
 
 }
 
@@ -191,6 +228,10 @@ int main() {
     //ptrSumFraction();
     //ptrEuclideanDistance3D();
     //ptrQuadrant();
-    ptrSwapAndNegate();
+    //ptrSwapAndNegate();
+    //ptrComputeSlope();
+    //ptrAreCollinear();
+    ptrRectangleContainsPoint();
+
     return 0;
 }
