@@ -128,6 +128,7 @@ int ptrAreCollinear(const Point2D* const point1 , const Point2D* const point2, c
 
 }
 
+
 typedef struct {
     int x;
     int y;
@@ -203,17 +204,24 @@ Rectangle* ptrRectangleIntersection(const Rectangle* const rect1, const Rectangl
     return rect;
 }
 
+typedef struct {
+    int pointCount;
+    Point2D arPoints[];
+
+}*Polygon;
 
 
-int ptrPointInsideConvexPolygon(){
 
+
+int ptrPointInsideConvexPolygon(const Point2D* const point1, const Polygon* const polygon1){
+
+
+    return 0;
 }
 
 
 
 int main() {
-
-
 
     ///MALLOC = MEMORY ALOCATION
     //CALLOC
@@ -228,8 +236,9 @@ int main() {
     printf("\n%d", newFraction->denominator);
     free(newFraction);
 */
+        /////SUM FRACTION
 /*
-                ///SUM FRACTION
+
     Fraction* FRACTIONPOINTER1 = malloc(sizeof(Fraction));
     scanf("%d", &FRACTIONPOINTER1->numerator);
     scanf("%d", &FRACTIONPOINTER1->denominator);
@@ -244,7 +253,7 @@ int main() {
     printf("\n%d", FRACTIONPOINTERANSWER->denominator);
     free(FRACTIONPOINTERANSWER);
 */
-
+    //////COMPUTE SLOPE
     /*
     Point* Point1 = malloc(sizeof(Point));
     Point* Point2 = malloc(sizeof(Point));
@@ -258,7 +267,8 @@ int main() {
     free(Point2);
     */
 
-/*          //////QUADRANT
+    //////QUADRANT
+/*
     Point2D* point = malloc(sizeof(Point2D));
     scanf("%d %d", &point->x, &point->y);
     int quadrant = ptrQuadrant(point);
@@ -266,16 +276,16 @@ int main() {
     free(point);
 */
 
-
-/*      //SWAP N NEGATE
+    /////SWAP N NEGATE
+/*
     Point2D* point = malloc(sizeof(Point2D));
     scanf("%d %d", &point->x, &point->y);
     ptrSwapAndNegate(point);
     printf("%d\n%d", point->x, point->y);
     free(point);
 */
-
-/*  ///////PTR SLOPE
+///////PTR SLOPE
+/*
     Point2D* point1 = malloc(sizeof(Point2D));
     scanf("%d %d", &point1->x, &point1->y);
     Point2D* point2 = malloc(sizeof(Point2D));
@@ -284,8 +294,8 @@ int main() {
     float slope = ptrComputeSlope(point1, point2);
     printf("%.1f", slope);
 */
-
-/*  ///////////COLLINEAR
+    ///////////COLLINEAR
+/*
     Point2D* point1 = malloc(sizeof(Point2D));
     scanf("%d %d", &point1->x, &point1->y);
     Point2D* point2 = malloc(sizeof(Point2D));
@@ -300,8 +310,9 @@ int main() {
     free(point3);
 
 */
+    ////////////RECTCONSTRAINTS
 
-/*  //rectConstraints
+/*
     Rectangle* newRect = malloc(sizeof(Rectangle));
     scanf("%d %d %d %d", &newRect->x, &newRect->y, &newRect->width, &newRect->height);
     Point2D* point1 = malloc(sizeof(Point2D));
