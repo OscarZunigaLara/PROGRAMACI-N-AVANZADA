@@ -105,8 +105,10 @@ int ptrSwapAndNegate(Point2D * const point1){
 
 
 
-float ptrComputeSlope(const Point2D * const point1, const Point2D* const point2){
-    float slope = (point2->y - point1->y)/(point2->x - point1->x);
+double ptrComputeSlope(const Point2D * const point1, const Point2D* const point2){
+    double x1 = point1->x;    double y1 = point1->y;
+    double x2 = point2->x;    double y2 = point2->y;
+    double slope = (y2 - y1)/(x2 - x1);
     return slope;
 }
 
@@ -115,16 +117,10 @@ int ptrAreCollinear(const Point2D* const point1 , const Point2D* const point2, c
 
     double slope1 = ptrComputeSlope(point1, point2);
     double slope2 = ptrComputeSlope(point2, point3);
-    slope1 = slope1 - slope2;
-    if (slope1 == 0){
-        return 1;
-    } else{
-        return 0;
-    }
 
+    return abs(slope1 - slope2)<0.00001;
 
     ///RESTAR....
-
 
 }
 
@@ -160,8 +156,6 @@ Rectangle* ptrRectangleUnion(const Rectangle* const rect1, const Rectangle* cons
     } else{
         y = rect2->y;
     }
-
-
     if (rect1->x + rect1->width > rect2->x + rect2->width){
         width = rect1->x + rect1->width - x;
     } else{
@@ -206,9 +200,8 @@ Rectangle* ptrRectangleIntersection(const Rectangle* const rect1, const Rectangl
 
 typedef struct {
     int pointCount;
-    Point2D arPoints[];
-
-}*Polygon;
+    Point2D* arPoints;
+}Polygon;
 
 
 
@@ -253,8 +246,8 @@ int main() {
     printf("\n%d", FRACTIONPOINTERANSWER->denominator);
     free(FRACTIONPOINTERANSWER);
 */
-    //////COMPUTE SLOPE
-    /*
+    //////EUCLIDEANDistance
+/*
     Point* Point1 = malloc(sizeof(Point));
     Point* Point2 = malloc(sizeof(Point));
     scanf("%d %d %d", &Point1->x, &Point1->y, &Point1->z);
@@ -262,10 +255,10 @@ int main() {
     scanf("%d %d %d", &Point2->x, &Point2->y, &Point2->z);
     float distance = ptrEuclideanDistance3D(Point1, Point2);
     printf("%.2f", distance);
-    free(Point1); float slope = ptrComputeSlope(point1, point1);
-    printf("%d", slope);
+    free(Point1);
     free(Point2);
-    */
+*/
+
 
     //////QUADRANT
 /*
@@ -291,8 +284,10 @@ int main() {
     Point2D* point2 = malloc(sizeof(Point2D));
     scanf("%d %d", &point2->x, &point2->y);
 
-    float slope = ptrComputeSlope(point1, point2);
+    double slope = ptrComputeSlope(point1, point2);
     printf("%.1f", slope);
+    free(point1);
+    free(point2);
 */
     ///////////COLLINEAR
 /*
@@ -337,7 +332,7 @@ int main() {
     free(newRect3);
 */
         /////RECTANGLE INTERSECTION
-
+    /*
     Rectangle* newRect1 = malloc(sizeof(Rectangle));
     scanf("%d %d %d %d", &newRect1->x, &newRect1->y, &newRect1->width, &newRect1->height);
     Rectangle* newRect2 = malloc(sizeof(Rectangle));
@@ -348,7 +343,7 @@ int main() {
     free(newRect1);
     free(newRect2);
     free(newRect3);
-
+*/
     //prtSimplifyFraction();
     //ptrSumFraction();
     //ptrEuclideanDistance3D();
