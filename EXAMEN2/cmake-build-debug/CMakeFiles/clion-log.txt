@@ -1,11 +1,8 @@
-/snap/clion/111/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/tndrmanjvbox/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN2
--- The C compiler identification is GNU 9.3.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done
--- Generating done
--- Build files have been written to: /home/tndrmanjvbox/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN2/cmake-build-debug
+/snap/clion/112/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/tndrmanjvbox/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN2
+CMake Error at CMakeLists.txt:13 (target_link_libraries):
+  Cannot specify link libraries for target "A7" which is not built by this
+  project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/tndrmanjvbox/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
