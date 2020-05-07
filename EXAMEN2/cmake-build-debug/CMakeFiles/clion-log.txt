@@ -1,8 +1,4 @@
 /snap/clion/112/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/tndrmanjvbox/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN2
-CMake Error at CMakeLists.txt:13 (target_link_libraries):
-  Cannot specify link libraries for target "A7" which is not built by this
-  project.
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/tndrmanjvbox/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tndrmanjvbox/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN2/cmake-build-debug

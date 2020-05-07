@@ -76,6 +76,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tndrmanjvbox/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN2/exam2.h">
+			<Option target="EXAMEN2"/>
+		</Unit>
 		<Unit filename="/home/tndrmanjvbox/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN2/main.c">
 			<Option target="EXAMEN2"/>
 		</Unit>
