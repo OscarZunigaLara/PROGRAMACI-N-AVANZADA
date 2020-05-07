@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tndrmanjvbox/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN2/exam2.h
+
+/home/tndrmanjvbox/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN2/main.c
+stdio.h
+-
+stdlib.h
+-
+exam2.h
+/home/tndrmanjvbox/CLionProjects/PROGRAMACI-N-AVANZADA/EXAMEN2/exam2.h
+math.h
+-
+
