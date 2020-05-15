@@ -322,4 +322,4 @@ int main() {
     //exito = testFindCentroidMiPrueba2();
     printf("\n %d",exito);
     return 0;
-}
+}up
