@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <math.h>
 
 typedef enum{
     numerical,
@@ -25,10 +25,38 @@ Instance * generateInstance(const int length){
     return instanciaPTR;
 }
 
-void liberaInstance(Instance * instance){
+void liberaInstancia(Instance * instance){
     free(instance->featureTypes);
     free(instance->features);
     free(instance);
+}
+
+
+double computeEuclideanDissimilarity(const Instance * const firstInstancePointer, const Instance * const secondInstancePointer){
+    double sum;
+    sum = 0;
+    if (firstInstancePointer->length == 0 || secondInstancePointer->length == 0){
+       return -1;
+   }
+   if (firstInstancePointer->length == secondInstancePointer->length){
+       return -2;
+   }
+
+    for (int i = 0; i <= firstInstancePointer->length -1; i++) {
+        if (firstInstancePointer->featureTypes[i] != secondInstancePointer->featureTypes[i]){
+            return -3;
+        }
+
+        if (firstInstancePointer->featureTypes[i] == 0){
+            double firstVal = firstInstancePointer->features[i];
+            double secondVal = secondInstancePointer->features[i];
+            sum += firstInstancePointer->features[i] != secondInstancePointer->features[i] ? 1: 0;
+        }
+
+    }
+
+    double sim = sqrt(sum);
+    return sim;
 }
 
 
@@ -36,14 +64,12 @@ void liberaInstance(Instance * instance){
 Instance * findNearestNeighbor(const Instance * const instances, const int length, const Instance * const query,
                                double (*dissimilarityFunction)(const Instance * const instanceOne, const Instance * const instanceTwo)) {
 
+    const int dist;
+
+
 
 }
 
-
-double computeEuclideanDissimilarity(const Instance * const instanceOnePtr, const Instance * const instanceTwoPtr){
-    double dob;
-    return dob;
-}
 
 
 int main() {
